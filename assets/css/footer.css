@@ -1,0 +1,53 @@
+/*footer styles*/
+
+
+footer li {
+  display: inline-block;
+  padding: 0.3%;
+  margin-top: 1%
+  padding:1%;
+
+}
+footer li img{
+  float: left;
+  height: 32px;
+  display: block;
+  margin-top: 3%;
+
+
+}
+footer li.social  img:active,
+footer li.social  img:focus,
+footer li.social  img:hover
+{
+
+  stroke: #721a12;
+
+
+}
+footer li.social
+{
+  margin-left: -1%
+
+
+}
+
+footer li.phone {
+  float: right;
+  margin-right: -1%;
+
+}
+
+
+footer li.phone a{
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #333333;
+  text-decoration: none;
+
+
+
+}
+
+
+/*footer styles*/

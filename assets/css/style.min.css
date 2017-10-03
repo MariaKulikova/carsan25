@@ -1,9 +1,29 @@
-/*!
- * fastshell
- * Fiercely quick and opinionated front-ends
- * https://HosseinKarami.github.io/fastshell
- * @author Hossein Karami
- * @version 1.0.5
- * Copyright 2017. MIT licensed.
- */
-@import url(carsan-styles.css);
+@import url(advantages.css);
+@import url(catalog.css);
+@import url(footer.css);
+#about {
+	height: 180px;
+}
+@font-face {
+	font-family: Fira Sans;
+	src: url(fonts/fira_sans_regular.ttf);
+}
+body {
+	background-color: #fafafa;
+}
+body div.container-fluid {
+	font-family: Fira Sans;
+	-moz-font-family: Fira Sans;
+	color: #333333;
+	margin: 0;
+	padding: 0;
+
+    max-width: 1700px;
+    margin: auto;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+}
+
