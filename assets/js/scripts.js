@@ -5,7 +5,6 @@
     $(document).ready(function () {
 
         $('a[href^="#"]').on('click', function (event) {
-            console.log('on click by href');
             var target = $($(this).attr('href'));
 
             if (target.length) {
