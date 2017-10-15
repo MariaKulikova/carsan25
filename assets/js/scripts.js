@@ -1,22 +1,22 @@
 (function ($, window, document, undefined) {
 
-  'use strict';
+    'use strict';
 
-  $(document).ready(function() {
+    $(document).ready(function () {
 
-  $('a[href^="#"]').on('click', function(event) {
+        $('a[href^="#"]').on('click', function (event) {
+            console.log('on click by href');
+            var target = $($(this).attr('href'));
 
-     var target = $( $(this).attr('href') );
+            if (target.length) {
+                event.preventDefault();
+                $('body').animate({
+                    scrollTop: target.offset().top
+                }, 500);
+            }
 
-     if( target.length ) {
-         event.preventDefault();
-         $('html, body').animate({
-             scrollTop: target.offset().top
-         }, 500);
-     }
-
- });
- });
+        });
+    });
 
 
 })(jQuery, window, document);
